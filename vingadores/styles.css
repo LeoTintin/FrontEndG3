@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #090909 #ffffffa9;
+
+}
+
+.jetbrains-mono-uniquifier> {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.jomhuria-regular {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container_geral {
+    /* 100% da tela */
+    width: 100vw;
+    height: 100vh;
+    background-color: #1E1E1E;
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: rgb(46, 126, 191);
+    gap: 30px;
+}      
+.title {
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    margin-left: 3rem;
+    padding-top: 0.5rem;
+    font-size: 36px;
+    color: aliceblue;
+    font-family: Jomhuria;
+}
+.lista ul{
+    list-style: none;
+    display: flex;
+    padding-top: 1rem;
+    gap: 30px;
+    margin-right: 80px;
+    font-family: Jomhuria;
+}
+
+
+.lista li{
+    padding-top: 7px;
+    font-size: 1rem;
+    color: white;
+    font-family: JetBrains Mono;
+}
+
+.lista2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    gap: 30px;
+    margin-right: 80px;
+    font-family: Jomhuria;
+}
+
+
+.lista2 li{
+    padding-top: 7px;
+    margin-right: 2rem;
+    padding-left: 72rem;
+    font-size: 1rem;
+    color: white;
+    font-family: JetBrains Mono;
+}
+.container_cards{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: column;
+    align-items: center;
+    gap: 80px;
+}
+.foto_heroi{
+    width: 244.5px;
+    height: 367.5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 5);
+
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+    font-family: JetBrains Mono;
+    color: white;
+    
+    gap: 1rem;
+}
+
+.linha2{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: column;
+    align-items: center;
+    gap: 80px;
+}
+.titulo{
+    display: flex;
+    margin-top: 7rem;
+    margin-left: 22rem;
+    color: white;
+    font-family: JetBrains Mono;
+    font-size: 1.5rem;
+}
+
