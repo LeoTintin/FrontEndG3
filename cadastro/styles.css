@@ -127,6 +127,7 @@ form input[type= "submit"]:hover{
   justify-content: space-between;
   padding-top: 17px;
   width: 100%;
+  height: 100%;
   height: 4rem;
   background-color: rgb(46, 126, 191);
 }
@@ -146,4 +147,32 @@ form input[type= "submit"]:hover{
   justify-content: right;
   gap: 0.8rem;
   padding-right: 1rem;
+}
+@media (max-width: 460px){
+  .voltar{
+    font-size: 15px;
+    padding-top: 14px;
+  }
+  .entrar{
+    font-size: 15px;
+    padding-top: 14px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+  }
+  .container_cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .desenvolvidopor{
+    padding-top: 6px;
+   font-size: 14px; 
+  }
+  form input[type= "submit"] {
+    font-size: 12px;
+  }
 }
