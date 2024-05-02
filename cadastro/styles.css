@@ -123,3 +123,28 @@ form input[type= "submit"]:hover{
     border: 1px solid #0a3152;
     color: rgb(165, 170, 175);
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(46, 126, 191);
+}
+.desenvolvidopor{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 1rem;
+  padding-top: 2px;
+  font-family: JetBrains Mono;
+}
+.redessociais{
+  display: flex;
+  justify-content: right;
+  gap: 0.8rem;
+  padding-right: 1rem;
+}
