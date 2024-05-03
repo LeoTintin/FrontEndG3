@@ -105,13 +105,10 @@
     transition: transform 0.3s ease;
 }
 .foto_heroi:hover {
-    transform: translateY(-20px); 
+    transform: translateY(-20px);
+    filter: blur(5px); 
+    
 }
-
-.container.cards:hover .foto_heroi {
-    transform: translateY(-20px); /* move a imagem para cima quando o mouse passa por cima */    
-}
-
 
 .coluna{
     display: flex;
@@ -121,11 +118,38 @@
     font-family: JetBrains Mono;
     color: rgb(255, 255, 255);
     gap: 1rem;
+    
 }
+.desc{
+    color: red;
+}
+.colunaLink .desc{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-shadow: 
+    -1px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px  1px 0 #000000,
+    1px  1px 0 #030303;
+    width: 100%;
+    color: #ffffff; /* Cor do texto da descrição */
+    padding: px;
+    opacity: 0; /* Inicialmente, a descrição está oculta */
+    transition: opacity 0.7s; /* Adiciona uma transição suave para o efeito de fade */ 
+}
+.colunaLink:hover .desc {
+    opacity: 1;
+}
+
 .coluna:hover {
     text-decoration: none; /* Remove o sublinhado padrão de links */
     color: red; /* Mantém a cor padrão do texto */
     
+}
+.colunaLink{
+    position: relative;
 }
 
 .linha2{
