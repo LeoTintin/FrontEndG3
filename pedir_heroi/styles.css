@@ -1,50 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jomhuria&display=swap');
+
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #090909 #ffffffa9;
 }
 
 :root {
     --cor-principal: #2D7EBF;
     --cor-background: #1E1E1E;
-}
-
-body {
-    background-color: var(--cor-background);
-}
-
-.navbar {
-    background-color: var(--cor-principal);
-    height: 5%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 24px;
-}
-
-.navbar_links {
-    display: flex;
-    flex-direction: row;
-    padding: 2.5rem;
-    gap: 2rem;
-    color: white;
-}
-
-.navbar_links_link {
-    text-decoration: none;
-    color: white;
-}
-
-.navbar_opcoes_entrar {
-    padding: 2.5rem;
-    text-decoration: none;
-    color: white;
+    --fonte-titulo: "Jomhuria", serif;
+    --fonte-principal: "JetBrains Mono", monospace;
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-background);
+    overflow-x: hidden;
+}
+
+.container_conteudo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: var(--cor-principal);
+    gap: 20px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    margin-left: 3rem;
+    padding-top: 0.5rem;
+    font-size: 60px;
+    color: white;
+    font-family: var(--fonte-titulo);
+}
+
+.lista ul{
+    list-style: none;
+    display: flex;
+    padding-top: 1rem;
+    gap: 30px;
+    margin-right: 80px;
+    font-family: var(--fonte-principal);
+}
+
+
+.lista li{
+    padding-top: 7px;
+    font-size: 1rem;
+    color: white;
+    font-family: var(--fonte-principal);
+}
+
+.lista2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    gap: 30px;
+    margin-right: 80px;
+    font-family: var(--fonte-principal);
+}
+
+.lista2 li{
+    padding-top: 7px;
+    margin-right: 2rem;
+    padding-left: 72rem;
+    font-size: 1rem;
+    color: white;
+    font-family: var(--fonte-principal);
 }
 
 .botoes {
@@ -66,16 +104,17 @@ body {
     font-size: 25px;
     text-decoration: none;
     color: white;
+    font-family: var(--fonte-principal);
 }
 
 .botao:hover {
-    background-color: #5da6e2;
+    background-color: var(--cor-principal);
     border: 2px solid var(--cor-principal);
     scale: 1.05;
 }
 
 .mapa {
-    padding: 5rem;
+    margin: 7rem;
 }
 
 .rodape {
@@ -89,5 +128,25 @@ body {
 
 .rodape_texto {
     color: white;
-    padding: 2.5rem;
+    padding: 1.5rem;
+    font-family: var(--fonte-principal);
+}
+
+@media (max-width: 850px) {
+    .container_conteudo {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botoes {
+        padding-left: 0;
+        width: auto;
+        margin-bottom: 5rem;
+    }
+
+    .mapa {
+        height: 25rem;
+        width: 25rem;
+    }
 }
