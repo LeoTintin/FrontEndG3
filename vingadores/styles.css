@@ -323,7 +323,7 @@
   
     .titulo{
         margin-top: 12rem;
-        margin-left: 5.5rem;
+        margin-left: 25rem;
     }
     .linha{
         justify-content: center;
@@ -332,10 +332,9 @@
     .linha2{
         justify-content: center;
         align-items: center;
-    }
-    
+    } 
     .lista2 li{
-        padding-left: 25rem;
+        padding-left: 72rem;
     }
     .foto_heroi{
         width: 244.5px;
@@ -347,34 +346,3 @@
  
 }
 
-@media (min-width: 2560px) {
-
-  
-    .titulo{
-        margin-top: 12rem;
-        margin-left: 20.5rem;
-    }
-    .linha{
-        justify-content: center;
-        align-items: center;
-        gap: 200px;
-    }
-    .linha2{
-        margin-top: 200px;
-        justify-content: center;
-        align-items: center;
-        gap: 200px;
-    }
-    
-    .lista2 li{
-        padding-left: 105rem;
-    }
-    .foto_heroi{
-        width: 326px;
-        height: 490px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 5);
-        transition: transform 0.3s ease;
-    }
-   
- 
-}
