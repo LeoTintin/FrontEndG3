@@ -108,13 +108,10 @@
     transform: translateY(-20px); 
 }
 
-.card:hover .foto_heroi {
-    transform: translateY(-20px); /* move a imagem para cima quando o mouse passa por cima */
+.container.cards:hover .foto_heroi {
+    transform: translateY(-20px); /* move a imagem para cima quando o mouse passa por cima */    
 }
 
-.card:hover .texto {
-    color: red; /* muda a cor do texto para vermelho quando o mouse passa por cima */
-}
 
 .coluna{
     display: flex;
@@ -122,9 +119,13 @@
     justify-content: initial;
     align-items: initial;
     font-family: JetBrains Mono;
-    color: white;
-    
+    color: rgb(255, 255, 255);
     gap: 1rem;
+}
+.coluna:hover {
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    color: red; /* Mantém a cor padrão do texto */
+    
 }
 
 .linha2{
@@ -153,8 +154,8 @@
     height: 100%;
     height: 4rem;
     background-color: rgb(46, 126, 191);
-  }
-  .desenvolvidopor{
+}
+.desenvolvidopor{
     display: flex;
     justify-content: left;
     align-items: left;
@@ -164,14 +165,18 @@
     margin-left: 1rem;
     padding-top: 2px;
     font-family: JetBrains Mono;
-  }
-  .redessociais{
+}
+.redessociais{
     display: flex;
     justify-content: right;
     gap: 0.8rem;
     padding-right: 1rem;
-  }
+}
 
+a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
   @media (max-width: 480px) {
     .coluna{
         display: flex;
