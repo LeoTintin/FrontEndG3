@@ -1,162 +1,180 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: rgb(30,30,30);
+
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #090909 #ffffffa9;
+
 }
-.jetbrains-mono-uniquifier> {
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
+.jockey-one-regular {
+  font-family: "Jockey One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
-
 .jomhuria-regular {
   font-family: "Jomhuria", serif;
   font-weight: 400;
   font-style: normal;
+}
+.jetbrains-mono- {
+font-family: "JetBrains Mono", monospace;
+font-optical-sizing: auto;
+font-style: normal;
 }
 
 .container_geral {
     /* 100% da tela */
     width: 100vw;
     height: 100vh;
-    background-color: rgb(30, 30, 30);
-    overflow-x: hidden
+
+    background-color: #1E1E1E;
+    overflow-x: hidden;
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 9px;
   width: 100%;
   height: 4rem;
   background-color: rgb(46, 126, 191);
 }
 
-.title {
+.voltar {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 20px;
+  color: aliceblue;
   margin-left: 1rem;
-  padding-top: 8px;
-  font-size: 50px;
+  padding-top: 9px;
+  font-family: JetBrains Mono;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
   color: aliceblue;
   font-family: Jomhuria;
 }
-.voltar{
+.entrar {
   display: flex;
   justify-content: right;
-  margin-right: 24px;
-  margin-top: -45px;
-  font-size: 24px;
+  text-align: right;
+  font-size: 20px;
   color: aliceblue;
+  margin-right: 1rem;
+  padding-top: 9px;
   font-family: JetBrains Mono;
 }
 
-.pergunta {
-  display: flex;
+.container_email{
+  margin-top: 5rem;
+}
+input[type= "text"],
+input[type= "email"],
+form input,
+.container_cadastro{
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6rem;
-  font-size: 23px;
+  text-align: center;
   color: aliceblue;
-  font-family: JetBrains Mono;
-}
-
-.registro form input,
-form textarea {
+  font-size: 25px;
+  gap: 2rem; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-top: 20px;
+  box-sizing: border-box;
   outline: unset;
-  border-radius: 10px;
-  border-color: rgb(46, 126, 191);
-  height: 8.5vh;
-  width: 32%;
-  margin-left: 34%;
-  margin-top: 32px;
-  gap: 25px;
-  padding: 5px 5px 5px 20px;
-  font-weight: 500;
-  font-size: 21px;
-  background-color: rgb(46, 126, 191);
-  color: rgb(255, 255, 255);
+  color: aliceblue;
+  font-size: 22px;
+  margin-top: 2rem;
   font-family: JetBrains Mono;
 }
-button{
+form ::placeholder, input[type= "text"], input[type= "email"] {
+  text-align: center;
+  background-color:#2D7EBF;
+  color: aliceblue;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #2D7EBF;
+}
+form input[type= "submit"]{
+
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 29rem;
-  margin-top: 2.5rem;
-  padding: 10px 20px;
-  height: 10vh;
-  width: 32%;
-  font-size:30px;
-  cursor: pointer;
-  background-color: rgb(46, 126, 191);
-  border: none;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 10px;
   border-radius: 10px;
-  font-family:JetBrains Mono ;
+  max-width: 480px;
+  box-sizing: border-box;
+  outline: unset;
+  background-color: rgb(46, 126, 191);
+  border: 1px solid rgb(46, 126, 191);
   color: aliceblue;
+  font-size: 22px;
+  font-family: JetBrains Mono;
 }
-
-button :hover{
-  background-color:rgb(10, 79, 136);
-
+form input[type= "submit"]:hover{
+  background-color: #0a3152;
+  border: 1px solid #0a3152;
+  color: rgb(165, 170, 175);
 }
-
-.ou {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: aliceblue;
-  font-size: 31px;
+.ou{
   padding: 1.5rem;
-  font-family: JetBrains Mono;
 }
+form input[type= "button"]{
 
-.google {
-  width: 32%;
-  height: 10vh;
-  background-color: rgb(46, 126, 191);
-  margin-left: 29rem;
-  margin-top: 1rem;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-
-}
-.contcom {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-top: 1rem;
-  color: aliceblue;
-  font-size: 30px;
-  font-family: JetBrains Mono;
-}
-.qr {
-  width: 32%;
-  height: 10vh;
-  background-color: rgb(46, 126, 191);
-  margin-left: 29rem;
+  text-align: center;
+  flex-direction: column;
+  width: 50rem;
+  padding-left: 7rem;
+  margin: 0 auto;
+  gap: 2rem;
   margin-top: 1rem;
-  border: none;
+  margin-bottom: 10px;
   border-radius: 10px;
-  cursor: pointer;
-}
-.contqr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 17px;
+  max-width: 480px;
+  box-sizing: border-box;
+  outline: unset;
+  background-color: rgb(46, 126, 191);
+  border: 1px solid rgb(46, 126, 191);
   color: aliceblue;
-  font-size: 24px;
+  font-size: 22px;
   font-family: JetBrains Mono;
+}
+form input[type= "button"]:hover{
+  background-color: #0a3152;
+  border: 1px solid #0a3152;
+  color: rgb(165, 170, 175);
+}
+.sair{
+  padding-top: 3px;
 }
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 5rem;
+  padding-top: 17px;
   width: 100%;
   height: 100%;
   height: 4rem;
+  margin-top: 670px;
   background-color: rgb(46, 126, 191);
 }
 .desenvolvidopor{
@@ -167,7 +185,7 @@ button :hover{
   font-size: 20px;
   color: aliceblue;
   margin-left: 1rem;
-  padding-top: 1.3rem;
+  padding-top: 2px;
   font-family: JetBrains Mono;
 }
 .redessociais{
@@ -175,56 +193,39 @@ button :hover{
   justify-content: right;
   gap: 0.8rem;
   padding-right: 1rem;
-  padding-top: 1rem;
 }
-@media  (max-width: 1096px) {
-  .container {
-    width: 100%;
-    height: 100%;
-}
-.title {
-  font-size: 200%;
-  padding-top: 1rem;
-}
+@media (max-width: 460px){
 .voltar{
-  font-size: 100%;
-  margin-top: -28px;
+  font-size: 15px;
+  padding-top: 14px;
 }
-.pergunta{
-  font-size: 100%;
+.entrar{
+  font-size: 15px;
+  padding-top: 14px;
 }
-.registro{
-  height: 10%;
-  width: 100%;
-  font-size: 100%;
+form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
 }
-button{
-  height: 8%;
-  width: 32%;
-  font-size: 100%;
-  margin-left: 34%;
-}
-.ou{
-  font-size: 100%;
-}
-.google{
-  height: 8%;
-  width: 32%;
-  margin-left: 34%;
-}
-.contcom{
-  font-size: 100%;
-}
-.qr{
-  height: 8%;
-  width: 32%;
-  margin-left: 34%;
-}
-.contqr{
-  font-size: 100%;
+.container_cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .desenvolvidopor{
   padding-top: 6px;
- font-size: 100%; 
+ font-size: 14px; 
+}
+form input[type= "submit"] {
+  font-size: 12px;
+  
+}
+.ou{
+  font-size: 15px;
+}
+form input[type= "button"] {
+  font-size: 12px;
 }
 }
