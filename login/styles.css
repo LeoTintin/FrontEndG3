@@ -199,7 +199,7 @@ form input[type= "button"]:hover{
   padding-right: 1rem;
 }
 @media (max-width: 460px){
-.voltar{
+/* .voltar{
   font-size: 15px;
   padding-top: 14px;
 }
@@ -231,5 +231,13 @@ form input[type= "submit"] {
 }
 form input[type= "button"] {
   font-size: 12px;
+} */
+.ou{
+  font-size: 15px;
+}
+form input[type= "submit"] {
+  font-size: 12px;
+  width: 100%;
+
 }
 }
