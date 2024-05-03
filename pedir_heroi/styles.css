@@ -110,18 +110,62 @@
   color: white;
   font-family: var(--fonte-principal);
 }
-
+.local{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d7ebf;
+  color: white;
+  border-radius: 10px;
+  border-color: #2d7ebf;
+  height: 4.5rem;
+  font-size: 25px;
+  font-family:var(--fonte-principal);
+  padding-left: 4rem;
+  padding-right: 12px;
+}
+fieldset{
+  border-style: none;
+}
 .botao:hover {
   background-color: white;
   border: 2px solid var(--cor-principal);
   scale: 1.05;
   color: var(--cor-principal);
 }
-
+.select{
+  width: 100%;
+  height: 45%;
+}
 .mapa {
   margin: 7rem;
 }
-
+form input[type= "submit"]{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 370px;
+    height: 67px;
+    padding-left: 1rem;
+    margin: 0 auto;
+    gap: 2rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 480px;
+    box-sizing: border-box;
+    outline: unset;
+    background-color: rgb(46, 126, 191);
+    border: 1px solid rgb(46, 126, 191);
+    color: aliceblue;
+    font-size: 22px;
+    font-family: JetBrains Mono;
+  }
+  form input[type= "submit"]:hover{
+    background-color: #0a3152;
+    border: 1px solid #0a3152;
+    color: rgb(165, 170, 175);
+  }
 .footer {
   display: flex;
   justify-content: space-between;

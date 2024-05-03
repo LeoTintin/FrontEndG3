@@ -29,19 +29,47 @@
       </div>
       <div class="container_conteudo">
         <div class="botoes">
-          <a class="botao" href="">Informe o local</a>
-          <a class="botao" href="">Informe o desastre</a>
+          <input type="text" name="localidade" id="lugar" placeholder="Informe o local" class="local"> <br>
+          <div class="escolha">
+          <fieldset>
+            <select name="ocorrencia" id="desastre" class="local">
+              <option selected>Informe o desastre</option>
+              <option value="ocorA">Incêncio</option>
+              <option value="ocorB">Deslizamento</option>
+              <option value="ocorC">Invasão Domiciliar</option>
+              <option value="ocorD">Sequestro</option>
+              <option value="ocorE">Inundação</option>
+              <option value="ocorE">Afogamento</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="lesgoo">
+            <form
+              action="../defensor/index2.html"
+              method="get"
+            >
+              <input
+                id="botao"
+                type="submit"
+                value="Continuar"
+                formaction="../defensor/index2.html"
+              />
+            </form>
+            <!-- <a href="http://127.0.0.1:5500/Frontg3/FrontEndG3/pedir_heroi/index.html">
+              <input type="button" value="Continuar com google" />
+            </a> -->
+        </div>
         </div>
         <iframe
           class="mapa"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d651.5741964331811!2d-43.182392185708096!3d-22.509425456990762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1714696449222!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.2552990091817!2d-43.21178169009918!3d-22.53210732450063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x990854afe3849f%3A0xafd20246b768238a!2sParque%20Tecnol%C3%B3gico%20Regi%C3%A3o%20Serrana!5e0!3m2!1spt-BR!2sbr!4v1714772004350!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
           width="700"
           height="700"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          referrerpolicy="no-referrer-when-downgrade">
+          />
       </div>
     </div>
     <div class="footer">
@@ -62,5 +90,6 @@
               </a>
       </div>
 </div>
+<script src="script.js"></script>
   </body>
 </html>
