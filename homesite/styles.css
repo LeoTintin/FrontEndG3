@@ -181,6 +181,12 @@ margin-top: 3rem;
     width: 100%;
  } */
 }
+.enviar:hover {
+    background-color: white;
+    border: 2px solid var(--cor-principal);
+    scale: 1.05;
+    color: var(--cor-principal);
+  }
 
 .container_imagem{
 background-color: #1E1E1E;
