@@ -1,152 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jomhuria&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jomhuria&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: #090909 #ffffffa9;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #090909 #ffffffa9;
 }
 
 :root {
-    --cor-principal: #2D7EBF;
-    --cor-background: #1E1E1E;
-    --fonte-titulo: "Jomhuria", serif;
-    --fonte-principal: "JetBrains Mono", monospace;
+  --cor-principal: #2d7ebf;
+  --cor-background: #1e1e1e;
+  --fonte-titulo: "Jomhuria", serif;
+  --fonte-principal: "JetBrains Mono", monospace;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--cor-background);
-    overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--cor-background);
+  overflow-x: hidden;
 }
 
 .container_conteudo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    height: 4rem;
-    background-color: var(--cor-principal);
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  background-color: var(--cor-principal);
+  gap: 20px;
 }
 
 .titulo {
-    display: flex;
-    justify-content: initial;
-    align-items: center;
-    margin-left: 3rem;
-    padding-top: 0.5rem;
-    font-size: 60px;
-    color: white;
-    font-family: var(--fonte-titulo);
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  margin-left: 3rem;
+  padding-top: 0.5rem;
+  font-size: 60px;
+  color: white;
+  font-family: var(--fonte-titulo);
 }
 
-.lista ul{
-    list-style: none;
-    display: flex;
-    padding-top: 1rem;
-    gap: 30px;
-    margin-right: 80px;
-    font-family: var(--fonte-principal);
+.links {
+  text-decoration: none;
+  color: white;
 }
 
-
-.lista li{
-    padding-top: 7px;
-    font-size: 1rem;
-    color: white;
-    font-family: var(--fonte-principal);
+.lista ul {
+  list-style: none;
+  display: flex;
+  padding-top: 1rem;
+  gap: 30px;
+  margin-right: 80px;
+  font-family: var(--fonte-principal);
 }
 
-.lista2 ul{
-    list-style: none;
-    display: flex;
-    justify-content: end;
-    padding-top: 1rem;
-    gap: 30px;
-    margin-right: 80px;
-    font-family: var(--fonte-principal);
+.lista li {
+  padding-top: 7px;
+  font-size: 1rem;
+  color: white;
+  font-family: var(--fonte-principal);
 }
 
-.lista2 li{
-    padding-top: 7px;
-    margin-right: 2rem;
-    padding-left: 72rem;
-    font-size: 1rem;
-    color: white;
-    font-family: var(--fonte-principal);
+.lista2 ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding-top: 1rem;
+  gap: 30px;
+  margin-right: 80px;
+  font-family: var(--fonte-principal);
+}
+
+.lista2 li {
+  padding-top: 7px;
+  margin-right: 2rem;
+  padding-left: 72rem;
+  font-size: 1rem;
+  color: white;
+  font-family: var(--fonte-principal);
 }
 
 .botoes {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    width: 35rem;
-    justify-content: center;
-    padding-left: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 35rem;
+  justify-content: center;
+  padding-left: 12rem;
 }
 
 .botao {
-    background-color: var(--cor-principal);
-    border: 2px solid var(--cor-principal);
-    padding: 1rem;
-    text-align: center;
-    width: 100%;
-    border-radius: 10px;
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-    font-family: var(--fonte-principal);
+  background-color: var(--cor-principal);
+  border: 2px solid var(--cor-principal);
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-family: var(--fonte-principal);
 }
 
 .botao:hover {
-    background-color: var(--cor-principal);
-    border: 2px solid var(--cor-principal);
-    scale: 1.05;
+  background-color: white;
+  border: 2px solid var(--cor-principal);
+  scale: 1.05;
+  color: var(--cor-principal);
 }
 
 .mapa {
-    margin: 7rem;
+  margin: 7rem;
 }
 
 .rodape {
-    background-color: var(--cor-principal);
-    height: 5%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  background-color: var(--cor-principal);
+  height: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .rodape_texto {
-    color: white;
-    padding: 1.5rem;
-    font-family: var(--fonte-principal);
+  color: white;
+  padding: 1.5rem;
+  font-family: var(--fonte-principal);
 }
 
 @media (max-width: 850px) {
-    .container_conteudo {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
+  .container_conteudo {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .botoes {
-        padding-left: 0;
-        width: auto;
-        margin-bottom: 5rem;
-    }
+  .botoes {
+    padding-left: 0;
+    width: auto;
+    margin-bottom: 5rem;
+  }
 
-    .mapa {
-        height: 25rem;
-        width: 25rem;
-    }
+  .mapa {
+    height: 25rem;
+    width: 25rem;
+  }
 }
