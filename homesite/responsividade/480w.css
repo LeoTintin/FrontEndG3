@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     padding-top: 7px;
-    padding-left: 10rem;
+    padding-left: 4rem;
     font-size: 1rem;
     color: white;
     font-family: JetBrains Mono;
@@ -28,6 +28,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
+
   }
   
   .container_home2 {
@@ -38,6 +39,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    flex-direction: column;
   }
   
   .container_texto {
@@ -49,20 +51,20 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   
   .texto1 {
     background-color: #1e1e1e;
-    height: 10%;
-    width: 100%;
+    height: 20%;
+    width: 97%;
     font-family: Jomhuria;
-    font-size: 54px;
+    font-size: 52px;
     color: white;
     letter-spacing: 3px;
     line-height: 3rem;
     margin-top: 6rem;
-    margin-left: 2.5rem;
+    margin-right: 2rem;
   }
   
   .texto2 {
@@ -72,7 +74,6 @@
     color: white;
     font-size: 20px;
     font-family: "JetBrains Mono";
-    margin-left: 2.3rem;
   }
   
   .escolher {
@@ -94,7 +95,6 @@
     background-color: #2d7ebf;
     color: white;
     border-style: none;
-    padding-left: 2rem;
   }
   
   .enviar {
@@ -102,17 +102,15 @@
     border-color: #0a4f88;
     width: 8.5rem;
     height: 3.2rem;
-    color: white;
-    font-family: "JetBrains Mono";
-    font-size: 1rem;
-    border-style: none;
-    margin-right: 10.7rem;
+    margin-right: 0;
+    
   
     button {
       background-color: #0a4f88;
       border-color: #0a4f88;
       height: 100%;
       width: 100%;
+
     }
   }
   
@@ -125,8 +123,11 @@
     align-items: center;
     margin-top: 3rem;
     img {
-      height: 71%;
-      width: 100%;
+      height: 61%;
+      width: 90%;
     }
   }
-  
+
+  .redessociais{
+    padding-right: 1rem;
+  }
