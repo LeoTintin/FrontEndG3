@@ -10,7 +10,7 @@ margin-bottom: 57px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 36px;
+font-size: 3rem;
 color: aliceblue;
 padding: 15px 0;
 font-family: "Jomhuria", serif;
@@ -105,7 +105,7 @@ font-family: "Jomhuria", serif;
   text-align: left;
   font-size: 20px;
   color: aliceblue;
-  margin-left: 2rem;
+  margin-left: 1rem;
   padding-top: 2px;
   font-family: JetBrains Mono;
 }
