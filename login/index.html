@@ -24,7 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jockey+One&family=Jomhuria&display=swap"
       rel="stylesheet"
     />
-    <title>Cadastro</title>
+    <title>Login</title>
   </head>
   <body>
     <div class="container_geral" id="container">
@@ -38,17 +38,29 @@
           <div class="container_email">
             <label>Digite o seu melhor email: </label> <br />
             <input type="text" placeholder="email" required /> <br />
+            <!-- <a href="http://127.0.0.1:5500/Frontg3/FrontEndG3/pedir_heroi/index.html">
+              <input type="button" value="Continuar"  />
+            </a> -->
+            <form action="http://127.0.0.1:5500/Frontg3/FrontEndG3/pedir_heroi/index.html" method="post">
+              <input id="0" type="submit" value="Continuar" formaction="http://127.0.0.1:5500/Frontg3/FrontEndG3/pedir_heroi/index.html">
+            </form>
           </div>
           <div>
-            <input type="submit" value="Continuar" />
           </div>
           <div class="ou">---------- ou ----------</div>
           <div class="botoes">
             <div class="google">
-              <input type="button" value="Continuar com google">
+              <form action="http://127.0.0.1:5500/Frontg3/FrontEndG3/pedir_heroi/index.html" method="get">
+                <input id="1" type="submit" value="Continuar com Google" formaction="http://127.0.0.1:5500/Frontg3/FrontEndG3/pedir_heroi/index.html">
+              </form>
+              <!-- <a href="http://127.0.0.1:5500/Frontg3/FrontEndG3/pedir_heroi/index.html">
+                <input type="button" value="Continuar com google" />
+              </a> -->
             </div>
             <div class="sair">
-              <input type="button" value="Não possuo uma conta">
+              <form action="http://127.0.0.1:5500/Frontg3/FrontEndG3/cadastro/index.html" method="get">
+                <input id ="2" type="submit" value="Não possuo conta" formaction="http://127.0.0.1:5500/Frontg3/FrontEndG3/cadastro/index.html">
+              </form>
             </div>
           </div>
         </form>
@@ -58,12 +70,13 @@
           <p>desenvolvido por grupo 3!</p>
         </div>
         <div class="redessociais">
-          <img
-            src="https://static1.squarespace.com/static/5deccde3cf6d8468d81553ba/5e1ca4f10b6183780c2b0cdb/5e5febfffbab4315f7081e4f/1583344640996/011-instagram.png?format=750w"
-            alt="Imagem do instagram"
-            width="30"
-            height="30"
-          />
+          <a href="https://www.instagram.com/defensores.ofc/" target="blank"
+            ><img
+              src="https://static1.squarespace.com/static/5deccde3cf6d8468d81553ba/5e1ca4f10b6183780c2b0cdb/5e5febfffbab4315f7081e4f/1583344640996/011-instagram.png?format=750w"
+              alt="Imagem do instagram"
+              width="30"
+              height="30"
+          /></a>
           <img
             src="https://logoeps.com/wp-content/uploads/2014/06/49408-linkedin-logo-icon-vector-icon-vector-eps.png"
             alt="Imagem do linkedin"

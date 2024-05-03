@@ -34,6 +34,10 @@
     color: aliceblue;
     font-family: Jomhuria;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 .lista ul{
     list-style: none;
     display: flex;
@@ -56,14 +60,12 @@
     justify-content: end;
     padding-top: 1rem;
     gap: 30px;
-    margin-right: 80px;
     font-family: Jomhuria;
 }
 
 
 .lista2 li{
     padding-top: 7px;
-    margin-right: 2rem;
     padding-left: 72rem;
     font-size: 1rem;
     color: white;
@@ -159,6 +161,8 @@ margin-top: 3rem;
  }
 
 .enviar{
+ display: flex;
+ justify-content: center;
  background-color: #0A4F88;
  border-color: #0A4F88;
  width: 13rem;
@@ -168,12 +172,14 @@ margin-top: 3rem;
  font-size: 1.6rem;
  border-style: none;
  margin-right: 31rem;
- button{
+ border-radius: 10px;
+ align-items: center;
+ /* button{
     background-color: #0A4F88;
     border-color: #0A4F88;
     height: 100%;
     width: 100%;
- }
+ } */
 }
 
 .container_imagem{
