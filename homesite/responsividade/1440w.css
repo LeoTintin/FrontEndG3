@@ -17,7 +17,6 @@
 }
 
 .navbar{
-    width: 100%;
     display: flex;
     flex-direction: row;
     height: 4rem;
@@ -29,7 +28,7 @@
     display: flex;
     justify-content: initial;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
     padding-top: 0.5rem;
     font-size: 36px;
     color: aliceblue;
@@ -66,14 +65,14 @@
 .lista2 li{
     padding-top: 7px;
     margin-right: 2rem;
-    padding-left: 39rem;
+    padding-left: 47rem;
     font-size: 1rem;
     color: white;
     font-family: JetBrains Mono;
 }
 
 .container_home{
-    background-color: 1E1E1E;
+    background-color: #1E1E1E;
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -84,33 +83,33 @@
 .container_home2{
     background-color: #1E1E1E;
     height: 100%;
-    width: 93%;
+    width: 90%;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
 .container_texto{
-background-color: 1E1E1E;
+background-color: #1E1E1E;
     height: 100%;
-    width: 47%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-gap: 1.5rem;
+gap: 3rem;
 margin-top: 3rem;
 }
 
 .texto1{
  background-color: #1E1E1E;
- height: 10%;
- width: 95%;
+ height: 14%;
+ width: 92%;
  font-family: Jomhuria;
- font-size: 64px;
+ font-size: 96px;
  color: white;
  letter-spacing: 3px;
- line-height: 4rem;
+ line-height: 5rem;
  margin-top: 6rem;
  margin-left: 2.5rem;
 }
@@ -120,36 +119,34 @@ margin-top: 3rem;
  height: 9%;
  width: 87%;
  color: white;
- font-size: 22px;
+ font-size: 33px;
  font-family: 'JetBrains Mono';
- margin-right: 0.3rem;
 }
 
 .escolher{
     display: flex;
     flex-direction: column;
  background-color: #1E1E1E;
- height: 9%;
- width: 80%;
- gap: 1rem;
- margin-right: 2.5rem;
+ height: 25%;
+ width: 87%;
+ gap: 2rem;
 }
 
 .inserir{
     width: 100%;
-    height: 9%;
+    height: 45%;
 }
 .select{
     width: 100%;
-    height: 9%;
+    height: 45%;
 }
 
 .local{
-    height: 4rem;
-    font-size: 22px;
+    height: 5.7rem;
     width: 100%;
     border-radius: 10px;
     font-family: 'JetBrains Mono';
+    font-size: 30px;
     background-color: #2D7EBF;   
     color: white;
     border-style: none;
@@ -165,14 +162,13 @@ margin-top: 3rem;
 .enviar{
  background-color: #0A4F88;
  border-color: #0A4F88;
- width: 9rem;
- height: 3.5rem;
+ width: 13rem;
+ height: 4.5rem;
  color: white;
  font-family: 'JetBrains Mono';
- font-size: 1.2rem;
+ font-size: 1.6rem;
  border-style: none;
- margin-right: 21.4rem;
-
+ margin-right: 21.7rem;
  button{
     background-color: #0A4F88;
     border-color: #0A4F88;
@@ -181,20 +177,19 @@ margin-top: 3rem;
  }
 }
 
-.container_imagem{
-background-color: 1E1E1E;
-height: 60rem;
-width: 35rem;
-justify-content: center;
-display: flex;
-align-items: center;
-margin-top: 3rem;
-margin-left: 1rem;
-img{
-    height: 89%;
-    width: 87%;
-}
-}
+  .container_imagem {
+    background-color: #1e1e1e;
+    height: 50rem;
+    width: 40rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    img {
+      height: 100%;
+      width: 85%;
+    }
+  }
 
 .footer {
     display: flex;
