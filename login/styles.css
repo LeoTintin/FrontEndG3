@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #090909 #ffffffa9;
+
+}
+.jockey-one-regular {
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.jetbrains-mono- {
+font-family: "JetBrains Mono", monospace;
+font-optical-sizing: auto;
+font-style: normal;
+}
+
+.container_geral {
+    /* 100% da tela */
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #1E1E1E;
+    overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 9px;
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(46, 126, 191);
+}
+
+.voltar {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 1rem;
+  padding-top: 9px;
+  font-family: JetBrains Mono;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: aliceblue;
+  font-family: Jomhuria;
+}
+.entrar {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  font-size: 20px;
+  color: aliceblue;
+  margin-right: 1rem;
+  padding-top: 9px;
+  font-family: JetBrains Mono;
+}
+
+.container_email{
+  margin-top: 5rem;
+}
+input[type= "text"],
+input[type= "email"],
+form input,
+.container_cadastro{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+  gap: 2rem; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  outline: unset;
+  color: aliceblue;
+  font-size: 22px;
+  margin-top: 2rem;
+  font-family: JetBrains Mono;
+}
+form ::placeholder, input[type= "text"], input[type= "email"] {
+  text-align: center;
+  background-color:#2D7EBF;
+  color: aliceblue;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #2D7EBF;
+}
+form input[type= "submit"]{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 480px;
+  box-sizing: border-box;
+  outline: unset;
+  background-color: rgb(46, 126, 191);
+  border: 1px solid rgb(46, 126, 191);
+  color: aliceblue;
+  font-size: 22px;
+  font-family: JetBrains Mono;
+}
+form input[type= "submit"]:hover{
+  background-color: #0a3152;
+  border: 1px solid #0a3152;
+  color: rgb(165, 170, 175);
+}
+.ou{
+  padding: 1.5rem;
+}
+form input[type= "button"]{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 50rem;
+  padding-left: 7rem;
+  margin: 0 auto;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 480px;
+  box-sizing: border-box;
+  outline: unset;
+  background-color: rgb(46, 126, 191);
+  border: 1px solid rgb(46, 126, 191);
+  color: aliceblue;
+  font-size: 22px;
+  font-family: JetBrains Mono;
+}
+form input[type= "button"]:hover{
+  background-color: #0a3152;
+  border: 1px solid #0a3152;
+  color: rgb(165, 170, 175);
+}
+.sair{
+  padding-top: 3px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+  width: 100%;
+  height: 100%;
+  height: 4rem;
+  margin-top: 670px;
+  background-color: rgb(46, 126, 191);
+}
+.desenvolvidopor{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 1rem;
+  padding-top: 2px;
+  font-family: JetBrains Mono;
+}
+.redessociais{
+  display: flex;
+  justify-content: right;
+  gap: 0.8rem;
+  padding-right: 1rem;
+}
+@media (max-width: 460px){
+.voltar{
+  font-size: 15px;
+  padding-top: 14px;
+}
+.entrar{
+  font-size: 15px;
+  padding-top: 14px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+.container_cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desenvolvidopor{
+  padding-top: 6px;
+ font-size: 14px; 
+}
+form input[type= "submit"] {
+  font-size: 12px;
+  
+}
+.ou{
+  font-size: 15px;
+}
+form input[type= "button"] {
+  font-size: 12px;
+}
+}
