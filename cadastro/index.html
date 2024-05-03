@@ -20,8 +20,10 @@
 <body>
     <div class="container_geral" id="container">
         <div class="navbar">
-            <div class="voltar">VOLTAR</div>
-            <div class="title">DEFENSORES</div>
+            <a href="http://127.0.0.1:5500/homesite/index.html" class="voltar">VOLTAR</a>
+            <!-- <div class="voltar">VOLTAR</div> -->
+            <a href="http://127.0.0.1:5500/homesite/index.html" class="title">DEFENSORES</a>
+            <!-- <div class="title">DEFENSORES</div> -->
                 <a href="http://127.0.0.1:5500/login/index.html" class="entrar">ENTRAR</a>
         </div>
         <div class="container_cadastro">
@@ -43,7 +45,11 @@
                     <input type="text" placeholder="Número" required/> <br>
                 </div>
                 <div>
-                    <input type="submit" value="Cadastrar" />
+                    <!-- <input type="submit" value="Cadastrar" /> -->
+                    <form action="http://127.0.0.1:5500/pedir_heroi/index.html" method="post">
+                        <!-- Seus outros campos de formulário aqui -->
+                        <input type="submit" value="Cadastrar" formaction="http://127.0.0.1:5500/pedir_heroi/index.html">
+                      </form>
                 </div>
             </form>
         </div>
@@ -54,9 +60,19 @@
                 </p>
             </div>
             <div class="redessociais">
-                    <img src="https://static1.squarespace.com/static/5deccde3cf6d8468d81553ba/5e1ca4f10b6183780c2b0cdb/5e5febfffbab4315f7081e4f/1583344640996/011-instagram.png?format=750w" alt="Imagem do instagram" width="30" height="30">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/defensores.ofc/">
+                        <img src="https://static1.squarespace.com/static/5deccde3cf6d8468d81553ba/5e1ca4f10b6183780c2b0cdb/5e5febfffbab4315f7081e4f/1583344640996/011-instagram.png?format=750w" alt="Imagem do instagram" width="30" height="30">
+                    </a>
+                </div>
+                <div class="linkedin">
                     <img src="https://logoeps.com/wp-content/uploads/2014/06/49408-linkedin-logo-icon-vector-icon-vector-eps.png" alt="Imagem do linkedin" width="30" height="30">
+                </div>
+                <div class="github">
+                    <a href="https://github.com/LeoTintin/FrontEndG3">
                     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Imagem do GitHub" width="30" height="30">
+                </a>
+                </div>
             </div>
         </div>
     </div>

@@ -52,6 +52,7 @@
     margin-left: 1rem;
     padding-top: 9px;
     font-family: JetBrains Mono;
+    text-decoration: none;
   }
   .title {
     display: flex;
@@ -60,6 +61,7 @@
     font-size: 60px;
     color: aliceblue;
     font-family: Jomhuria;
+    text-decoration: none;
   }
   .entrar {
     display: flex;
