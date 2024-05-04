@@ -21,7 +21,6 @@
     flex-direction: row;
     height: 4rem;
     background-color: rgb(46, 126, 191);
-    gap: 30px;
 }      
 
 .title {

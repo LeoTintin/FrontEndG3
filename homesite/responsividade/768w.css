@@ -1,4 +1,3 @@
-
 .lista2 ul {
   list-style: none;
   display: flex;
@@ -128,4 +127,31 @@
     height: 71%;
     width: 100%;
   }
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  height: 4rem;
+  background-color: rgb(46, 126, 191);
+}
+.desenvolvidopor{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 1rem;
+  padding-top: 1.3rem;
+  font-family: JetBrains Mono;
+}
+.redessociais{
+  display: flex;
+  justify-content: right;
+  gap: 0.8rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
 }
